@@ -1,7 +1,7 @@
 # RollCall Scanner Model Demo
 
 
-##function :
+## Function :
 
 <br>
 |       name       |       description         |
