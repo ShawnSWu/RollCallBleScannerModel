@@ -13,7 +13,7 @@
 
 
 
-##example
+## Example :
 
       RollCallBLEScanner rollCallBLEScanner = new RollCallBLEScanner
                 .Builder()
@@ -21,3 +21,19 @@
                 
                 
                 
+
+you also can set setScanSettings :
+
+     RollCallBLEScanner rollCallBLEScanner = new RollCallBLEScanner
+                .Builder()
+                .setScanSettings(new ScanSettings())
+                .build(this);
+
+and set setScanFilter :
+
+    List<ScanFilter> scanFilter = new ArrayList<>(); // whatever you want
+     RollCallBLEScanner rollCallBLEScanner = new RollCallBLEScanner
+                .Builder()
+                .setScanSettings(new ScanSettings())
+                .setScanFilter(scanFilter)
+                .build(this);
