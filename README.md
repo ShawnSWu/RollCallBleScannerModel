@@ -10,3 +10,14 @@
 |     stopScan()    |  stop find Ble device.    |
 |    continueScan() |  continue scan after stop,deviceList will not clear.|
 |   getDeviceList() |  get device List         |
+
+
+
+##example
+
+      RollCallBLEScanner rollCallBLEScanner = new RollCallBLEScanner
+                .Builder()
+                .build(this);
+                
+                
+                
